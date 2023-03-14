@@ -82,6 +82,7 @@ ttfamily: zażółć gęsią jaźń \\
 
     async function init() {
       await globalEn.loadEngine();
+      globalEn.setTexliveEndpoint("https://ondemand-service-d3ncqg2pmq-uc.a.run.app/");
       compileBtn.innerHTML = "Compile";
       compileBtn.disabled = false;
     }
